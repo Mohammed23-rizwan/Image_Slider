@@ -3,7 +3,8 @@ import Img from "./Component/img";
 import Hero from "./Component/hero";
 
 const App = () => {
-  const [count, setcount] = useState(3);
+  const [count, setcount] = useState(0);
+
   return (
     <div>
       <Img count={count} />
